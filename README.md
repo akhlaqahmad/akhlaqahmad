@@ -87,11 +87,11 @@
 
 <p align="center">
   <a href="https://github.com/akhlaqahmad">
-    <img width="48%" src="https://github-readme-stats.vercel.app/api?username=akhlaqahmad&show_icons=true&theme=radical&count_private=true&hide_border=true&include_all_commits=true" alt="Akhlaq's GitHub Stats" />
+    <img width="48%" src="https://github-readme-stats.vercel.app/api?username=akhlaqahmad&show_icons=true&theme=radical&hide_border=true&include_all_commits=true" alt="Akhlaq's GitHub Stats" />
   </a>
   &nbsp;
   <a href="https://github.com/akhlaqahmad">
-    <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=akhlaqahmad&theme=radical&hide_border=true" alt="GitHub Streak" />
+    <img width="48%" src="https://streak-stats.demolab.com/?user=akhlaqahmad&theme=radical&hide_border=true" alt="GitHub Streak" />
   </a>
 </p>
 

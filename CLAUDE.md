@@ -28,21 +28,26 @@ This is the **GitHub profile repository** for [Akhlaq Ahmad](https://github.com/
 - **Banner**: Raw `<img>` tag at the very top referencing `akhlaq-banner.jpg`
 - **Headings**: Centered HTML headings (`<h2>`, `<h3>`) for the intro section
 - **Bullet lists**: Standard Markdown list items with emoji prefixes for visual appeal
-- **Badges**: Inline shield.io badge images (`img.shields.io`) for the skills/tools section
-- **Stats widgets**: GitHub Readme Stats (`github-readme-stats.vercel.app`) and GitHub Streak Stats (`github-readme-streak-stats.herokuapp.com`) with the `radical` theme and `hide_border=true`
+- **Typing animation**: Uses `readme-typing-svg.demolab.com` for an animated subtitle in the header
+- **Profile counters**: GitHub followers badge and profile views counter (via `komarev.com/ghpvc`) below the header
+- **About Me**: Wrapped in a centered `<table>` for a card-like appearance
+- **Badges**: Inline shield.io badge images (`img.shields.io`) using `style=for-the-badge` with `logoColor=white`, grouped by category (Languages & Frameworks, Tools & Platforms, Design & Productivity)
+- **Stats widgets**: GitHub Readme Stats (`github-readme-stats.vercel.app`) and GitHub Streak Stats (`github-readme-streak-stats.herokuapp.com`) with the `radical` theme and `hide_border=true`, laid out side-by-side using `width="48%"`
+- **Social links**: Rendered as `for-the-badge` shield.io badges with brand colors (not plain text)
 - **Section separators**: Horizontal rules (`---`) between major sections
-- **Links**: Standard Markdown links for social/contact info
+- **Footer**: Waving gradient footer using `capsule-render.vercel.app`
 
 ### Sections (in order)
-1. Banner image
-2. Name and title (centered HTML)
-3. Current work and interests (emoji bullet list)
-4. Favorites (emoji bullet list)
-5. Languages & Tools (shield.io badges)
-6. GitHub Stats (dynamic stat cards)
-7. Buy Me A Coffee (centered CTA button)
-8. Connect With Me (contact links)
-9. Footer CTA
+1. Banner image (full-width)
+2. Name heading + typing animation subtitle
+3. Followers badge & profile views counter
+4. About Me (centered table card)
+5. My Absolute Favorites (centered inline text)
+6. Languages & Tools (categorized `for-the-badge` badges)
+7. GitHub Stats (side-by-side stat cards + top languages)
+8. Support My Work / Buy Me A Coffee (centered CTA)
+9. Connect With Me (social badge links)
+10. Footer CTA + waving gradient
 
 ## Development Workflow
 
@@ -58,7 +63,7 @@ There is no build, test, or CI/CD pipeline. Changes are purely content edits:
 - **README.md is the product.** Treat it with the same care as production code — preview rendering matters.
 - **Preserve the existing style.** Use the same HTML/Markdown hybrid approach, emoji conventions, and badge format already present.
 - **Be mindful of the banner image size.** Avoid unnecessarily re-adding or modifying `akhlaq-banner.jpg` as it is ~3.7 MB.
-- **Keep shield.io badge format consistent.** Use `style=flat-square` and appropriate brand colors/logos.
+- **Keep shield.io badge format consistent.** Use `style=for-the-badge` with `logoColor=white` and appropriate brand colors/logos.
 - **GitHub stats widgets use the `radical` theme.** Maintain `theme=radical&hide_border=true&include_all_commits=true` for consistency.
 - **Do not add tooling or config files** (e.g., `.eslintrc`, `package.json`) unless explicitly requested. This is intentionally a minimal repository.
 

@@ -32,7 +32,7 @@ This is the **GitHub profile repository** for [Akhlaq Ahmad](https://github.com/
 - **Profile counters**: GitHub followers badge and profile views counter (via `komarev.com/ghpvc`) below the header
 - **About Me**: Wrapped in a centered `<table>` for a card-like appearance
 - **Badges**: Inline shield.io badge images (`img.shields.io`) using `style=for-the-badge` with `logoColor=white`, grouped by category (Languages & Frameworks, Tools & Platforms, Design & Productivity)
-- **Stats widgets**: GitHub Readme Stats (`github-readme-stats.vercel.app`) and GitHub Streak Stats (`github-readme-streak-stats.herokuapp.com`) with the `radical` theme and `hide_border=true`, laid out side-by-side using `width="48%"`
+- **Stats widgets**: GitHub Readme Stats (`github-readme-stats.vercel.app`) and GitHub Streak Stats (`streak-stats.demolab.com`) with the `radical` theme and `hide_border=true`, laid out side-by-side using `width="48%"`
 - **Social links**: Rendered as `for-the-badge` shield.io badges with brand colors (not plain text)
 - **Section separators**: Horizontal rules (`---`) between major sections
 - **Footer**: Waving gradient footer using `capsule-render.vercel.app`
